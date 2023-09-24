@@ -56,11 +56,14 @@ a {
 
 .section-1 .text {
     color: #E5E7EB;
+    margin-bottom: 10px;
 }
 
-button {
+.sign-up {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 10%;
+    padding: 7px 25px;
 }
 
 .section-2 {
@@ -109,3 +112,32 @@ button {
     font-weight: 800;
     font-size: 28px;
 }
+
+.section-4 {
+    padding: 70px 100px;
+}
+
+.section-4 .container {
+    background-color: #3882F6;
+    padding: 50px 70px;
+    border-radius: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.section-4 .header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.section-4 .text {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.section-4 .sign-up {
+    border: 2px solid #F9FAF8;
+}
+
