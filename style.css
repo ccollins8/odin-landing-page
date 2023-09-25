@@ -1,11 +1,14 @@
-
+.section-1 {
+    background-color: #1F2937;
+    padding: 0 100px 50px 100px;
+    width: 1000px;
+    
+}
 
 #header, #footer {
     height: 72px;
-    background-color: #1F2937;
     display: flex;
     align-items: center;
-    padding: 0 100px;
 }
 
 #header {
@@ -31,16 +34,15 @@ a {
     text-decoration: none;
 }
 
-.section-1 {
+.hero {
     background-color: #1F2937;
-    padding: 50px 100px;
     display: flex;
     gap: 16px;
     /* background-color: aliceblue; */
     
 }
 
-.section-1 .header {
+.hero .header {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
@@ -57,7 +59,7 @@ a {
     align-items: center;
 }
 
-.section-1 .text {
+.hero .text {
     color: #E5E7EB;
     margin-bottom: 10px;
 }
@@ -147,5 +149,6 @@ a {
 #footer {
     justify-content: center;
     color: #E5E7EB;
+    background-color: #1F2937;
     font-size: 18px;
 }
